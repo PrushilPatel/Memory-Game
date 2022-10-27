@@ -103,3 +103,28 @@ nav ul li a {
   color: #ffffff;
   text-decoration: none;
 }
+
+.difficulty-title {
+  font-size: 28px;
+  text-align: center;
+  margin: 50px;
+  color: #efcf5a;
+}
+.difficulty {
+  display: flex;
+  justify-content: space-around;
+  color: #efcf5a;
+  padding: 25px 0px 0px 0px;
+  margin: 30px 3px 34px 31px;
+  width: 260px;
+  margin: 20px 0 0 60px;
+}
+.difficulty a {
+  color: #ffffff;
+  padding: 10px 30px 12px 15px;
+  margin: 10px;
+  background-color: #2e95cf;
+  border-radius: 4px;
+  font-size: 13px;
+  border: 2px solid #f34e4eeb;
+}
