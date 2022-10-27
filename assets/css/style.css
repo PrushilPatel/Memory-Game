@@ -71,3 +71,23 @@ nav ul li a {
     transform: translateY(-4px);
   } 
 }
+
+
+/********************************<START GAME MODAL CSS STARTS>************************************ */
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px; 
+  
+}
+.wrapper a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 15px;
+  background-color: #234485;
+  border-radius: 35px;
+  text-transform: uppercase;
+  color: #ffffff; 
+  font-family: "Roboto", sans-serif;
+}
