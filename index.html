@@ -13,8 +13,29 @@
         <img src="assets/images/logo.png" alt="pairs of the day logo">
             <h3><span id="score">Score:  </span></h3>
                  <div id="grid"></div>
-           
-            
+           <!-- Radio buttons to set game difficulty.
+                values will alter the number of cards displayed to the user and the overall number of pairs needed to win.
+            -->
+                 <div>
+                    <h1 class="difficulty-title" id="difficulty-header">Choose your Difficulty Mode</h1> 
+                    <div class="difficulty"id="gameLevel">
+                      
+                        <label for="Easy">
+                            <input type="radio" name="difficulty" value="24"> 4 Pairs
+                        </label>
+                        <label for="Normal">
+                            <input type="radio" name="difficulty" value="16"> 8 Pairs
+                        </label>
+                        <label for="Hard">
+                            <input type="radio" name="difficulty" value="0"> 16 Pairs
+                        </label>
+                      </p>
+                      </div>
+                   </div>
+              
+                    <div  class="wrapper" id="startgame">
+                    <a href="#startgame-modal">Start Game</a>
+                  </div>
       </section>
 
 
