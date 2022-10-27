@@ -36,3 +36,10 @@ nav ul li a {
   text-transform: uppercase;
 }
 /************************************ NAV BAR ENDS************************************************* */
+
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; 
+  width: 100%;
+}
