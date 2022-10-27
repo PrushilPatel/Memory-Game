@@ -44,35 +44,6 @@ nav ul li a {
   margin-right: auto; 
   width: 100%;
 }
-/* HOME SCREEN BALL ANIMATION */                  
-.animated-football {
-  width: 20%;
-  margin-left: auto;
-  display: block;
-  margin-right: auto;
-  margin-top: 10.25rem;
-  padding-bottom: 20px;
-  animation: bounce 1s infinite;
-}
-
-@keyframes bounce {
-  20%,
-  50%,
-  80%,
-  to {
-    transform: translateY(0);
-  }
-  40% {
-    transform: translateY(-30px);
-  }
-  70% {
-    transform: translateY(-15px);
-  }
-  90% {
-    transform: translateY(-4px);
-  } 
-}
-
 
 /********************************<START GAME MODAL CSS STARTS>************************************ */
 .wrapper {
