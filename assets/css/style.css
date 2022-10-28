@@ -149,4 +149,8 @@ nav ul li a {
   text-align: center;
   margin-bottom: 25px;
 }
+.aboutgame-text{
+  line-height: 30px;
+  text-align: inherit;
+}
 /********************************< ABOUT GAME MODAL CSS ENDS>************************************ */
