@@ -116,7 +116,8 @@ nav ul li a {
 .difficulty-title {
   font-size: 28px;
   text-align: center;
-  margin: 50px;
+  margin: 40px;
+  padding: 20px;
   color: #efcf5a;
 }
 .difficulty {
