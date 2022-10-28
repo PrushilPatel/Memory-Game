@@ -41,8 +41,8 @@ nav ul li a {
 .logo {
   display: block;
   margin-left: auto;
-  margin-right: 90px;
-  width: 92%;
+  margin-right: auto;
+  width: 100%;
 }
 
 /********************************<START GAME MODAL CSS STARTS>************************************ */
