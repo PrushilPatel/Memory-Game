@@ -170,3 +170,21 @@ nav ul li a {
   text-align: inherit;
 }
 /********************************< ABOUT GAME MODAL CSS ENDS>************************************ */
+
+
+/********************************<  HOW TO PLAY MODAL CSS STARTS>************************************ */
+.gamerules_content {
+  border-radius: 10px;
+  position: relative;
+  width: 423px;
+  max-width: 90%;
+  background: #234485;
+  padding: 2em 2em;
+  color: #ffffff;
+  line-height: 25px;
+  border: 2px solid darkblue;
+  margin: 35px;
+  height: 400px;
+}
+
+/********************************<  HOW TO PLAY  MODAL CSS ENDS>************************************ */
