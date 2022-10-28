@@ -188,3 +188,19 @@ nav ul li a {
 }
 
 /********************************<  HOW TO PLAY  MODAL CSS ENDS>************************************ */
+
+/***************************************FOOTER CSS STARTS********************************* */
+.copyright {
+  color: #efcf5a;
+  text-align: center;
+  padding: 20px;
+  background-color: #00153d;
+  margin-top: 240px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  top: 30.25;
+   
+}
+
+/***************************************FOOTER CSS ENDS********************************* */
