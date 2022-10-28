@@ -103,6 +103,15 @@ nav ul li a {
   color: #ffffff;
   text-decoration: none;
 }
+/********************************GAME DIFFICULTY SETTINGS CSS STARTS HERE ***********************/
+
+.game-diffculty-radiobtn{
+  background-color: #234485;
+  width: 350px;
+  margin-left: 20px;
+  border-radius: 10px;
+
+}
 
 .difficulty-title {
   font-size: 28px;
@@ -128,6 +137,9 @@ nav ul li a {
   font-size: 13px;
   border: 2px solid #f34e4eeb;
 }
+
+/********************************* GAME DIFFICULTY SETTINGS CSS ENDS HERE ************************* */
+
 /********************************< ABOUT GAME MODAL CSS STARTS>************************************ */
 .aboutgame_content {
   border-radius: 4px;
