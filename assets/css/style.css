@@ -128,3 +128,20 @@ nav ul li a {
   font-size: 13px;
   border: 2px solid #f34e4eeb;
 }
+/********************************< ABOUT GAME MODAL CSS STARTS>************************************ */
+.aboutgame_content {
+  border-radius: 4px;
+  position: relative;
+  width: 423px;
+  height: 450px;
+  max-width: 90%;
+  background: #234485;
+  padding: 2em 2em;
+  color: #ffffff;
+  line-height: 25px;
+  border: 2px solid #f34e4eeb;
+  margin: 35px;
+
+}
+
+/********************************< ABOUT GAME MODAL CSS ENDS>************************************ */
