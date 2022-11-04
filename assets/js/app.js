@@ -134,7 +134,26 @@ document.addEventListener("DOMContentLoaded", () => {
     },
   ];
 
+  startGame.addEventListener("click", () => {
+    let level = document.querySelector(
+      'input[name="difficulty"]:checked'
+    ).value;
 
+    clubs.splice(0, level);
+    clubs.sort(() => 0.5 - Math.random());
+    //test to check array after splice   console.log(clubs) ;
+
+    for (let i = 0; i < clubs.length; i++) {
+      const card = document.createElement("img");
+      card.setAttribute("src", "assets/images/player.png");
+      card.setAttribute("data-id", i);
+      card.addEventListener("click", flipCard);
+      grid.appendChild(card);
+    }
+
+    startGame.classList.add("hide");
+    gameLevel.classList.add("hide");
+  });
 
 
 
