@@ -212,11 +212,3 @@ nav ul li a {
 .hide{
   display: none;
 }
-
-#grid{
- width: 250px; 
- display: flex;
- flex-wrap: wrap;
- margin: auto;
- margin-top: 60px;
-}
