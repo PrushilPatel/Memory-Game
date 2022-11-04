@@ -151,6 +151,7 @@ document.addEventListener("DOMContentLoaded", () => {
       card.setAttribute("src", "assets/images/player.png");
       card.setAttribute("data-id", i);
       card.addEventListener("click", flipCard);
+      card.classList.add("club-img");
       grid.appendChild(card);
     }
 
