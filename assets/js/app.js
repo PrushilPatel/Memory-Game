@@ -160,6 +160,36 @@ document.addEventListener("DOMContentLoaded", () => {
     difficultyHeader.classList.add("hide");
   });
 
+  //check for matches
+  function checkForMatch() {
+    const cards = document.querySelectorAll("img");
+    const optionOneId = cardsChosenId[0];
+    const optionTwoId = cardsChosenId[1];
+
+    if (optionOneId == optionTwoId) {
+      cards[optionOneId].setAttribute("src", "assets/images/player.png");
+      cards[optionTwoId].setAttribute("src", "assets/images/player.png");
+      alert("You have clicked the same image!"); // CLICKED SAME IMAGE MODAL
+    } else if (cardsChosen[0] === cardsChosen[1]) {
+      alert("You found a match");
+      cards[optionOneId].setAttribute("src", "assets/images/trophy.png");
+      cards[optionTwoId].setAttribute("src", "assets/images/trophy.png");
+      cards[optionOneId].removeEventListener("click", flipCard);
+      cards[optionTwoId].removeEventListener("click", flipCard);
+      cardsWon.push(cardsChosen);
+    } else {
+      cards[optionOneId].setAttribute("src", "assets/images/player.png");
+      cards[optionTwoId].setAttribute("src", "assets/images/player.png");
+      alert("Sorry, try again"); // INCORRECT MATCH MODAL
+    }
+    cardsChosen = [];
+    cardsChosenId = [];
+    resultDisplay.textContent = cardsWon.length;
+    if (cardsWon.length === clubs.length / 2) {
+      resultDisplay.textContent = "Congratulations! You found them all!"; // ADD CONGARUTLATIONS MODAL
+    }
+  }
+
   function flipCard() {
     let cardId = this.getAttribute("data-id");
     cardsChosen.push(clubs[cardId].name);
@@ -169,6 +199,4 @@ document.addEventListener("DOMContentLoaded", () => {
       setTimeout(checkForMatch, 500);
     }
   }
-
-
 });
