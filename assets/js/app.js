@@ -1,7 +1,10 @@
 document.addEventListener("DOMContentLoaded", () => {
   const startGame = document.getElementById("startgame");
   const gameLevel = document.getElementById("gameLevel");
+  const difficultyHeader = document.getElementById("difficulty-header");
   const grid = document.querySelector("#grid");
+  let cardsChosen = [];
+  let cardsChosenId = [];
 
   const clubs = [
     {
@@ -153,10 +156,18 @@ document.addEventListener("DOMContentLoaded", () => {
 
     startGame.classList.add("hide");
     gameLevel.classList.add("hide");
+    difficultyHeader.classList.add("hide");
   });
 
-
-
+  function flipCard() {
+    let cardId = this.getAttribute("data-id");
+    cardsChosen.push(clubs[cardId].name);
+    cardsChosenId.push(cardId);
+    this.setAttribute("src", clubs[cardId].img);
+    if (cardsChosen.length === 2) {
+      setTimeout(checkForMatch, 500);
+    }
+  }
 
 
 });
