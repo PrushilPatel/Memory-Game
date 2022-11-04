@@ -12,7 +12,11 @@
     background-position: center center;
     height: 100vh;
   }
-
+  img{
+    background-color: #234485;
+    width: 60px;
+  }
+ 
 /**************************************< NAV CSS STARTS*******************************************/
 
 nav {
