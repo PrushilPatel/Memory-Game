@@ -235,3 +235,49 @@ nav ul li a {
 #score{
   color: #efcf5a;
 }
+
+@media only screen and (min-width: 375px) and (min-width: 768px) {
+  nav ul li a {     
+    color: #efcf5a;
+    font-size: 23px;
+  }
+  .site-header{
+    font-size: 80px;
+  }
+  #score{
+    font-size: 30px;
+  }
+  .game-diffculty-radiobtn{
+    width: 500px;
+    height: 365px;
+    margin: 0 auto;
+  
+  }
+
+  .difficulty-title {
+    font-size: 40px;
+  
+  }
+  .difficulty {
+    margin: 0 auto;
+    font-size: 20px;
+  }
+  .difficulty label{
+    padding: 0px 41px 0px;
+    font-size: 30px;
+  }
+
+  .wrapper a {
+    padding: 32px;
+    font-size: 20px;
+  }
+  .copyright {
+    width: 735px;
+    font-size: 20px;
+  }
+
+  .club-img{
+    width: 110px;
+    margin: 0 auto;
+  }
+}
