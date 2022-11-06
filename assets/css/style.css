@@ -16,6 +16,11 @@
     background-color: #234485;
     width: 60px;
   }
+
+  h1,h3{
+    color: #efcf5a;
+    text-align: center;
+  }
  
 /**************************************< NAV CSS STARTS*******************************************/
 
