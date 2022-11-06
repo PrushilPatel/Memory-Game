@@ -215,8 +215,7 @@ nav ul li a {
   position: fixed;
   left: 0;
   bottom: 0;
-  top: 30.25;
-   
+  width: 360px; 
 }
 
 /***************************************FOOTER CSS ENDS********************************* */
