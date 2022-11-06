@@ -170,7 +170,7 @@ document.addEventListener("DOMContentLoaded", () => {
     if (optionOneId == optionTwoId) {
       cards[optionOneId].setAttribute("src", "assets/images/player.png");
       cards[optionTwoId].setAttribute("src", "assets/images/player.png");
-      alert("You have clicked the same image!"); // CLICKED SAME IMAGE MODAL
+      alert("You have clicked the same image!"); 
     } else if (cardsChosen[0] === cardsChosen[1]) {
       alert("You found a match");
       cards[optionOneId].setAttribute("src", "assets/images/trophy.png");
@@ -181,13 +181,13 @@ document.addEventListener("DOMContentLoaded", () => {
     } else {
       cards[optionOneId].setAttribute("src", "assets/images/player.png");
       cards[optionTwoId].setAttribute("src", "assets/images/player.png");
-      alert("Sorry, try again"); // INCORRECT MATCH MODAL
+      alert("Sorry, try again"); 
     }
     cardsChosen = [];
     cardsChosenId = [];
     resultDisplay.textContent = `Score: ${cardsWon.length}`;
     if (cardsWon.length === clubs.length / 2) {
-      resultDisplay.textContent = "Congratulations! You found them all!"; // ADD CONGARUTLATIONS MODAL
+      resultDisplay.textContent = "Congratulations! You found them all!"; 
     }
   }
 
