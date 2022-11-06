@@ -123,12 +123,12 @@ nav ul li a {
 
 .game-diffculty-radiobtn{
   background-color: #234485;
-    width: 350px;
-    height: 300px;
-    margin-left: 20px;
-    border-radius: 10px;
-    margin-top: 40px;
-    border: 2px solid darkblue;
+  width: 350px;
+  height: 250px;
+  margin-left: 10px;
+  border-radius: 10px;
+  margin-top: 10px;
+  border: 2px solid darkblue;
 
 }
 
@@ -136,7 +136,6 @@ nav ul li a {
   font-size: 28px;
   text-align: center;
   margin: 40px;
-  padding: 20px;
   color: #efcf5a;
 }
 .difficulty {
@@ -233,6 +232,7 @@ nav ul li a {
 }
 #score{
   color: #efcf5a;
+  text-shadow: 1.5px 1.5px black;
 }
 
 @media only screen and (min-width: 375px) and (min-width: 768px) {
@@ -250,7 +250,6 @@ nav ul li a {
     width: 500px;
     height: 365px;
     margin: 0 auto;
-  
   }
 
   .difficulty-title {
@@ -278,5 +277,29 @@ nav ul li a {
   .club-img{
     width: 110px;
     margin: 0 auto;
+  }
+}
+@media only screen and (min-width: 1024px){
+  .site-header{
+    font-size: 70px;
+  }
+  .game-diffculty-radiobtn{
+    width: 460px;
+    height: 245px;
+  }
+  .difficulty-title {
+    font-size: 25px;
+  }
+  .difficulty label{
+    font-size: 25px;
+  }
+  .wrapper a {
+    padding: 20px;
+  }
+  .copyright {
+    width: 990px;
+  }
+  .club-img{
+    width: 51px;
   }
 }
