@@ -26,8 +26,9 @@
     color: #efcf5a;
     text-align: center;
     font-weight: bold;
+    margin-bottom: 20px;
   }
- 
+
 /**************************************< NAV CSS STARTS*******************************************/
 
 nav {
@@ -230,4 +231,7 @@ nav ul li a {
  flex-wrap: wrap;
  margin: auto;
  margin-top: 60px;
+}
+#score{
+  color: #efcf5a;
 }
