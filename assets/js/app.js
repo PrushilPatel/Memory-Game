@@ -3,8 +3,10 @@ document.addEventListener("DOMContentLoaded", () => {
   const gameLevel = document.getElementById("gameLevel");
   const difficultyHeader = document.getElementById("difficulty-header");
   const grid = document.querySelector("#grid");
+  const resultDisplay = document.querySelector("#score");
   let cardsChosen = [];
   let cardsChosenId = [];
+  let cardsWon = [];
 
   const clubs = [
     {
@@ -160,7 +162,6 @@ document.addEventListener("DOMContentLoaded", () => {
     difficultyHeader.classList.add("hide");
   });
 
-  //check for matches
   function checkForMatch() {
     const cards = document.querySelectorAll("img");
     const optionOneId = cardsChosenId[0];
@@ -189,6 +190,8 @@ document.addEventListener("DOMContentLoaded", () => {
       resultDisplay.textContent = "Congratulations! You found them all!"; // ADD CONGARUTLATIONS MODAL
     }
   }
+
+  
 
   function flipCard() {
     let cardId = this.getAttribute("data-id");
