@@ -187,7 +187,7 @@ document.addEventListener("DOMContentLoaded", () => {
     cardsChosenId = [];
     resultDisplay.textContent = `Score: ${cardsWon.length}`;
     if (cardsWon.length === clubs.length / 2) {
-      resultDisplay.textContent = "Congratulations! You found them all!"; 
+      resultDisplay.textContent = `Congratulations! You found them all!  click Home to restart game`; 
     }
   }
 
