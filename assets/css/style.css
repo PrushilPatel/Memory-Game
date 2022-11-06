@@ -17,9 +17,15 @@
     width: 60px;
   }
 
-  h1,h3{
+  h3{
     color: #efcf5a;
     text-align: center;
+  }
+  .site-header{
+    font-size: 45px;
+    color: #efcf5a;
+    text-align: center;
+    font-weight: bold;
   }
  
 /**************************************< NAV CSS STARTS*******************************************/
