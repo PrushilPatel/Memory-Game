@@ -185,7 +185,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
     cardsChosen = [];
     cardsChosenId = [];
-    resultDisplay.textContent = cardsWon.length;
+    resultDisplay.textContent = `Score: ${cardsWon.length}`;
     if (cardsWon.length === clubs.length / 2) {
       resultDisplay.textContent = "Congratulations! You found them all!"; // ADD CONGARUTLATIONS MODAL
     }
