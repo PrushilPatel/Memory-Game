@@ -26,7 +26,7 @@
     color: #efcf5a;
     text-align: center;
     font-weight: bold;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
 
 /**************************************< NAV CSS STARTS*******************************************/
@@ -280,6 +280,9 @@ nav ul li a {
   }
 }
 @media only screen and (min-width: 1024px){
+  #grid{
+    width: 810px; 
+   }
   .site-header{
     font-size: 70px;
   }
@@ -300,12 +303,29 @@ nav ul li a {
     width: 990px;
   }
   .club-img{
-    width: 51px;
+    width: 100px;
   }
 }
 @media only screen and (min-width: 1024px) and (min-width: 1440px){
+  #grid{
+    width: 810px; 
+   }
   .copyright {
     width: 1415px;
   }
+  .club-img{
+    width: 100px;
+  }
  
+}
+@media only screen and (min-width: 1920px) {
+  #grid{
+    width: 810px; 
+   }
+  .copyright {
+    width: 1900px;
+  }
+  .club-img{
+    width: 100px;
+  }
 }
