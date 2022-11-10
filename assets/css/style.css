@@ -28,7 +28,7 @@
     margin-bottom: 10px;
   }
 
-/**************************************< NAV CSS STARTS*******************************************/
+/************************************** NAV CSS STARTS*******************************************/
 
 nav {
   height: 80px;
@@ -61,6 +61,7 @@ nav ul li a {
 }
 
 /********************************<START GAME MODAL CSS STARTS>************************************ */
+/* https://codepen.io/denic/pen/ZEbKgPp was used as inspiration for the game modals.  */
 .wrapper {
   display: flex;
   align-items: center;
@@ -234,6 +235,8 @@ nav ul li a {
   color: #efcf5a;
   text-shadow: 1.5px 1.5px black;
 }
+
+/*************************************** MEDIA QUERIES FOR MOBILE, TABLETS AND DESKTOPS ********************************* */
 
 @media only screen and (min-width: 375px) and (min-width: 768px) {
   nav ul li a {     
