@@ -288,13 +288,13 @@ nav ul li a {
   }
   .game-diffculty-radiobtn{
     width: 460px;
-    height: 245px;
+    height: 300px;
   }
   .difficulty-title {
     font-size: 25px;
   }
   .difficulty label{
-    font-size: 25px;
+    font-size: 20px;
   }
   .wrapper a {
     padding: 20px;
