@@ -2,7 +2,6 @@
     padding: 0;
     margin: 0;
     text-decoration: none;
-    list-style: none;
     font-family: "Roboto", sans-serif;
   }
   body {
@@ -279,10 +278,7 @@ nav ul li a {
     width: 110px;
     margin: 0 auto;
   }
-  .gamerules_content {
-    width: 570px;
-    height: 420px;
-  }
+ 
 }
 @media only screen and (min-width: 1024px){
   #grid{
