@@ -191,15 +191,13 @@ nav ul li a {
 .gamerules_content {
   border-radius: 10px;
   position: relative;
-  width: 423px;
+  width: 250px;
   max-width: 90%;
   background: #234485;
   padding: 2em 2em;
   color: #ffffff;
-  line-height: 25px;
   border: 2px solid darkblue;
-  margin: 35px;
-  height: 400px;
+  height: 550px;
 }
 .howToPlay-logo{
   width: 50px;
@@ -281,6 +279,10 @@ nav ul li a {
     width: 110px;
     margin: 0 auto;
   }
+  .gamerules_content {
+    width: 570px;
+    height: 420px;
+  }
 }
 @media only screen and (min-width: 1024px){
   #grid{
@@ -308,6 +310,10 @@ nav ul li a {
   .club-img{
     width: 100px;
   }
+  .gamerules_content {
+    width: 570px;
+    height: 420px;
+  }
 }
 @media only screen and (min-width: 1024px) and (min-width: 1440px){
   #grid{
@@ -319,7 +325,7 @@ nav ul li a {
   .club-img{
     width: 100px;
   }
- 
+  
 }
 @media only screen and (min-width: 1920px) {
   #grid{
