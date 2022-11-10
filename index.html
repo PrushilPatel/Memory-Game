@@ -15,7 +15,9 @@
                  
 
                 <!--****************************************(1)<NAVIGATION SECTION STARTS>*************************************-->
-
+                        <!-- 
+                            site navigation which the user can access game rules and the read about the game.
+                         -->
                     <nav>
                         <ul>
                         <li><a href="index.html">Home</a></li>
@@ -24,12 +26,23 @@
                         </ul>
                     </nav>
                 <!--****************************************(1)<NAVIGATION SECTION ENDS>*************************************-->
+
+
+
            <p class="site-header">Pairs of the Day</p>
+
+           <!-- displays game score -->
             <h3><span id="score">Score:  </span></h3><br>
+
+
+            <!-- 
+                1) gird id will be used to display the game board.
+             -->
             <div id="grid"></div>
 
-           <!-- Radio buttons to set game difficulty.
-                values will alter the number of cards displayed to the user and the overall number of pairs needed to win.
+           <!-- 1) Radio buttons to set game difficulty.
+                2) values will alter the number of cards displayed to the user and the overall number of pairs needed to win.
+                3) gameLevel id will be used by app.js to alter the difficulty.
             -->
                  <div class="game-diffculty-radiobtn" id="difficulty-header">
                     <h1 class="difficulty-title" >Choose your Difficulty Mode</h1> 
@@ -55,7 +68,10 @@
 
               
                 <!------------------------ ABOUT GAME MODAL STARTS>------------------------------------>
-
+                <!-- 1) aboutgame-modal is used to select the modal via DOM.    
+                     2) modal class is used to hide the modol box to the user untill it is clicked on.
+                     3) this modal is used to tell the user about the game. 
+                -->
 
                 <div id="aboutgame-modal" class="modal">
                     <div class="aboutgame_content"> 
@@ -73,6 +89,11 @@
 
                 <!------------------------ HOW TO PLAY MODAL STARTS>------------------------------------>
 
+                <!-- 1) gamerules-modal is used to select the modal via DOM.    
+                     2) modal class is used to hide the modol box to the user untill it is clicked on.
+                     3) this modal is used to tell the user about the game rules. 
+                     4) an ordered list has been used to give a instructions about how to play.
+                -->
                 <div id="gamerules-modal" class="modal">
                     <div class="gamerules_content"> 
                     <h1 class="aboutgame-title">How to Play</h1>
@@ -98,13 +119,16 @@
 
                 <!------------------------------ HOW TO PLAY  MODAL  ENDS -------------------------------->
                 <!------------------------------ FOOTER  STARTS -------------------------------------------->
+                    <!-- 1) basic site footer
+                
+                -->
                 <footer>
                     <div class="copyright">
                       <p>Devleoped by Prushil Patel 2022</p>
                       </p>
                     </div>
                   </footer>
-                <!------------------------------ FOOTER  STARTS -------------------------------------------->
+                <!------------------------------ FOOTER ENDS -------------------------------------------->
 	<script src="assets/js/app.js"></script>
   </body>
 </html>
