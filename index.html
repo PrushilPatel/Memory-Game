@@ -45,19 +45,19 @@
                 3) gameLevel id will be used by app.js to alter the difficulty.
             -->
                  <div class="game-diffculty-radiobtn" id="difficulty-header">
-                    <h1 class="difficulty-title" >Choose your Difficulty Mode</h1> 
-                    <div class="difficulty"id="gameLevel">
+                    <p class="difficulty-title" >Choose your Difficulty Mode</p> 
+                    <div class="difficulty" id="gameLevel">
                       
-                        <label for="Easy">
+                        <label>
                             <input type="radio" name="difficulty" value="24"> 4 Pairs (Easy Mode)
                         </label>
-                        <label for="Normal">
+                        <label>
                             <input type="radio" name="difficulty" value="16"> 8 Pairs (Normal Mode)
                         </label>
-                        <label for="Hard">
+                        <label>
                             <input type="radio" name="difficulty" value="0"> 16 Pairs (Hard Mode)
                         </label>
-                      </p>
+
                       </div>
                    </div>
               
@@ -67,7 +67,7 @@
       </section>
 
               
-                <!------------------------ ABOUT GAME MODAL STARTS>------------------------------------>
+                <!--**************************** ABOUT GAME MODAL STARTS>********************************-->
                 <!-- 1) aboutgame-modal is used to select the modal via DOM.    
                      2) modal class is used to hide the modol box to the user untill it is clicked on.
                      3) this modal is used to tell the user about the game. 
@@ -85,9 +85,9 @@
                     </div>
                 </div>
 
-                <!------------------------------ ABOUT  MODAL ENDS -------------------------------->
+                <!--*********************** ABOUT  MODAL ENDS ***************************************-->
 
-                <!------------------------ HOW TO PLAY MODAL STARTS>------------------------------------>
+                <!---********************** HOW TO PLAY MODAL STARTS>*******************************-->
 
                 <!-- 1) gamerules-modal is used to select the modal via DOM.    
                      2) modal class is used to hide the modol box to the user untill it is clicked on.
@@ -100,35 +100,35 @@
                     <div >
                         <p class="gamerules-text">
                             <ol>
-                                <li>Choose your difficulty by selecting the game mode. Easy, Normal or Hard.</li><br>
-                                <li>Once selected click the start game button.</li><br>
-                                <li>Click on a game tile to reveal a club logo.</li><br>
-                                <li>Then click on  a second game tile to reveal another club logo.</li><br>
-                                <li>If both club logos match they stay face up otherwise they go back face down.</li><br>
-                                <li>You repeat this process untill you match all pairs for that difficulty.</li><br>
+                                <li>Choose your difficulty by selecting the game mode. Easy, Normal or Hard.</li>
+                                <li>Once selected click the start game button.</li>
+                                <li>Click on a game tile to reveal a club logo.</li>
+                                <li>Then click on  a second game tile to reveal another club logo.</li>
+                                <li>If both club logos match they stay face up otherwise they go back face down.</li>
+                                <li>You repeat this process untill you match all pairs for that difficulty.</li>
                             </ol>
 
                             Game Tile: <img src="assets/images/player.png" class="howToPlay-logo" alt="game-tile"><br>
                             Face up Tile: <img src="assets/images/arsenal.png"  class="howToPlay-logo" alt="Arsenal logo"><br>
                             Found a Match Title: <img src="assets/images/trophy.png" class="howToPlay-logo" alt="trophy"><br>
-                        </p>
+                        
                     </div>
                     <a href="#" class="modal_close">&times;</a>
                     </div>
                 </div>
 
-                <!------------------------------ HOW TO PLAY  MODAL  ENDS -------------------------------->
-                <!------------------------------ FOOTER  STARTS -------------------------------------------->
+                <!--********************** HOW TO PLAY  MODAL  ENDS *****************************-->
+                <!--*********************** FOOTER  STARTS ************************************-->
                     <!-- 1) basic site footer
                 
                 -->
                 <footer>
                     <div class="copyright">
                       <p>Devleoped by Prushil Patel 2022</p>
-                      </p>
+                     
                     </div>
                   </footer>
-                <!------------------------------ FOOTER ENDS -------------------------------------------->
+                <!--*********************************** FOOTER ENDS ************************************-->
 	<script src="assets/js/app.js"></script>
   </body>
 </html>
