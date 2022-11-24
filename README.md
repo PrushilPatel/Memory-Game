@@ -36,6 +36,11 @@ Therefore i made a change by replacing the site logo image with a header element
 3. Javascript- For dynamically changing content. 
 3. Git/github - for adding hosting my project and used for version control.
 
+## Tseting
+
+1. HTML file has been run through a code validator.[HTML validator]( https://validator.w3.org/#validate_by_input).
+2. CSS file has been run against code validator [CSS Validator](http://jigsaw.w3.org/css-validator/).
+3. Javascript has been run against code validator[Javascript Validator](-https://javascriptvalidator.net)
 
 
 ## view site
